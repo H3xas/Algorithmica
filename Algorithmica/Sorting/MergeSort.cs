@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Algorithmica.Sorting
 {
-	public class MergeSort
+	public class MergeSort : ISorter<int>
 	{
 		public int[] Sort(int[] inputArray)
 		{

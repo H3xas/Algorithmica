@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace Algorithmica.Sorting
 {
-	public interface ISorter
+	public interface ISorter <TItem>
 	{
-		IEnumerable<TItem> Sort<TItem>(IEnumerable<TItem> input);
+		TItem[] Sort(TItem[] input);
 	}
 }

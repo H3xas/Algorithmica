@@ -5,11 +5,27 @@ using System.Threading.Tasks;
 
 namespace Algorithmica.Sorting
 {
-	public class BubbleSort
+	public class BubbleSort : ISorter<int>
 	{
-		public int[] Sort()
+		public int[] Sort(int[] input)
 		{
-			throw new NotImplementedException();
+			if (input == null) throw new ArgumentNullException();
+			if (input.Length == 1) return input;
+
+			for (int outer_it = 0; outer_it < input.Length; ++outer_it)
+			{
+				for (int nested_it = 0; nested_it < input.Length - 1; ++nested_it)
+				{
+					if (input[nested_it] > input[nested_it + 1])
+					{ 
+						int temp = input[nested_it];
+						input[nested_it] = input[nested_it + 1];
+						input[nested_it + 1] = temp;
+					}
+				}
+			}
+
+			return input;
 		}
 	}
 }
