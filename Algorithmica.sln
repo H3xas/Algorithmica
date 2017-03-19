@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Algorithmica", "Algorithmica\Algorithmica.xproj", "{A2B07805-7294-444B-8DFC-4B3B20E3B53A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithmica", "Algorithmica\Algorithmica.csproj", "{A2B07805-7294-444B-8DFC-4B3B20E3B53A}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AlgorithmicaTests", "AlgorithmicaTests\AlgorithmicaTests.xproj", "{A7188CE4-0FAF-4DC8-9B7D-3CB12D10A49B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmicaTests", "AlgorithmicaTests\AlgorithmicaTests.csproj", "{A7188CE4-0FAF-4DC8-9B7D-3CB12D10A49B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
