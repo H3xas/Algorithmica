@@ -9,9 +9,9 @@ namespace Algorithmica.DataStructures
 	{
 		public T Data { get; private set; }
 
-		public Node(T data)
+		protected Node(T data)
 		{
 			Data = data;
-		} 
+		}
 	}
 }
